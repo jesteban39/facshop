@@ -1,6 +1,6 @@
-import Layout, {metadata} from '@/app/layout';
-import Home from '@/app/page';
-import {render, screen} from '@testing-library/react';
+import Layout, { metadata } from '@/app/layout';
+import { render, screen } from '@testing-library/react';
+import Home from './page';
 
 describe('Home', () => {
   it('should render successfully', () => {
