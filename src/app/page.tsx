@@ -1,6 +1,6 @@
-import type {User} from '@/types';
+import type { User } from '@/types';
 
-const user: User = {id: 1, name: 'John Doe', email: 'john.doe@example.com'};
+const user: User = { id: 1, name: 'John Doe', email: 'john.doe@example.com' };
 
 const Home = () => {
   return (
