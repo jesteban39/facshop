@@ -1,6 +1,6 @@
 // Date.test.tsx
 
-import { render, screen, fireEvent } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { InputDate } from './Date';
 
 describe('InputDate component', () => {

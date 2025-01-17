@@ -1,8 +1,8 @@
-import { act, renderHook } from '@testing-library/react';
-import { useForm } from 'react-hook-form';
 import { useLocale, useTranslations } from '@/Translation';
 import { FormNames } from '@/constants';
 import { useRegister } from '@/libs/Form';
+import { act, renderHook } from '@testing-library/react';
+import { useForm } from 'react-hook-form';
 
 jest.mock('react-hook-form', () => ({
   useForm: jest.fn()

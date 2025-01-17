@@ -1,6 +1,6 @@
-import type { Control, RegisterOptions } from 'react-hook-form';
 import type { IconsKeys, Option } from '@/types';
 import { ReactEventHandler } from 'react';
+import type { Control, RegisterOptions } from 'react-hook-form';
 
 type Autocomplete =
   | 'on'

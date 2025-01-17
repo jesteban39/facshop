@@ -1,6 +1,6 @@
 // Number.test.tsx
 
-import { render, screen, fireEvent } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { InputNumber } from './Number';
 
 describe('InputNumber component', () => {

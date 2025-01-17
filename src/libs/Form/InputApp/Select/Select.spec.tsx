@@ -1,6 +1,4 @@
-// Select.test.tsx
-
-import { render, screen, fireEvent, waitFor } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { InputSelect } from './Select';
 
 describe('InputSelect component', () => {

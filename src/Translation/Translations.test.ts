@@ -1,5 +1,5 @@
 import { locales } from '../constants';
-import { useLocale, useTranslations, getErrorCodes } from './index';
+import { getErrorCodes, useLocale, useTranslations } from './index';
 
 jest.mock('./locales/es.json', () => ({
   greeting: 'Hello, {name}',

@@ -1,7 +1,7 @@
-import { useState } from 'react';
-import InputBase from '@mui/material/InputBase';
-import type { InputPasswordProps } from '../types';
 import Button from '@mui/material/Button';
+import InputBase from '@mui/material/InputBase';
+import { useState } from 'react';
+import type { InputPasswordProps } from '../types';
 
 const IconApp = ({ name }: { name: string }) => <>{name[0]}</>;
 

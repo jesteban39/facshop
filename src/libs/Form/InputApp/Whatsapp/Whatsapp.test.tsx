@@ -1,6 +1,6 @@
-import { render, screen, fireEvent } from '@testing-library/react';
-import { InputWhatsapp } from './Whatsapp';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { InputWhatsappProps } from '../types';
+import { InputWhatsapp } from './Whatsapp';
 
 describe('InputWhatsapp', () => {
   const mockOnChange = jest.fn();

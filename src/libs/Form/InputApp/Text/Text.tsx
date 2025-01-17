@@ -1,5 +1,5 @@
-import type { InputTextProps } from '../types';
 import InputBase from '@mui/material/InputBase';
+import type { InputTextProps } from '../types';
 
 export const InputText = (props: InputTextProps) => {
   const { onChange, value, disablePaste, transforms, ...rest } = props;

@@ -1,6 +1,6 @@
-import type { InputSelectProps } from '../types';
 import Autocomplete from '@mui/material/Autocomplete';
 import TextField from '@mui/material/TextField';
+import type { InputSelectProps } from '../types';
 
 export const InputSelect = (props: InputSelectProps) => {
   const { onChange, value, options, name, disabled, ...rest } = props;
