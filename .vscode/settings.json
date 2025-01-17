@@ -1,0 +1,31 @@
+{
+  "editor.formatOnType": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "files.autoSave": "onFocusChange",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[xml]": {
+    "editor.defaultFormatter": "redhat.vscode-xml"
+  },
+  "cSpell.words": [
+    "toastify"
+  ],
+  "cSpell.enableFiletypes": [
+    "!json",
+    "!jsonc",
+    "!jsonl",
+    "!yaml",
+    "!yml"
+  ],
+  "sonarlint.connectedMode.project": {
+    "connectionId": "gruponutresa",
+    "projectKey": "novaventa.3758-imp-react-js"
+  }
+}

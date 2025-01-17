@@ -1,5 +1,3 @@
-// InputPassword.test.tsx
-
 import { fireEvent, render, screen } from '@testing-library/react';
 import { InputPassword } from './Password';
 
